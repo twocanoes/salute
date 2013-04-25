@@ -14,3 +14,6 @@ and you simply press return to engage the screensaver.  A couple of notes:
 - You have to set the screen saver to lock the screen in the security pane, otherwise it just engages the screensaver and you can exit it.
 - there is an option to fast user switch to the login window
 - there is an option to have a timer automatically switch to login window
+
+tim
+(twocanoes.com)
