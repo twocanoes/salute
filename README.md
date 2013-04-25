@@ -16,4 +16,4 @@ and you simply press return to engage the screensaver.  A couple of notes:
 - there is an option to have a timer automatically switch to login window
 
 tim
-(twocanoes.com)
+(http://twocanoes.com)
