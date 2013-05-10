@@ -15,7 +15,7 @@
 
     
 }
-@property (retain) NSString *buttonTitle;
+@property (strong) NSString *buttonTitle;
 -(void)launchAppAtPath:(NSString *)path;
 -(void)showHelp:(id)sender;
 -(void)windowHotKeyPressed:(id)sender;

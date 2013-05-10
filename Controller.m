@@ -42,7 +42,6 @@ pascal OSStatus TCHotKeyHandler(EventHandlerCallRef nextHandler,EventRef theEven
 
     timer=[NSTimer scheduledTimerWithTimeInterval:[[NSDate dateWithTimeIntervalSinceNow:5] timeIntervalSinceNow]
                                    target:self selector:@selector(checkIdleTimer:) userInfo:nil repeats:YES];
-    [timer retain];
     [self sleepNotifications];
     fm=[NSFileManager defaultManager];    
     EventTypeSpec eventType;
@@ -189,7 +188,5 @@ pascal OSStatus TCHotKeyHandler(EventHandlerCallRef nextHandler,EventRef theEven
 
 -(void)dealloc{
     [timer invalidate];
-    [timer release];
-    [super dealloc];
 }
 @end
